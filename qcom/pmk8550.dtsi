@@ -18,7 +18,7 @@
 		#address-cells = <1>;
 		#size-cells = <0>;
 
-		pon_hlos@1300 {
+		pmk8550_pon_hlos: pon_hlos@1300 {
 			compatible = "qcom,pm8998-pon";
 			reg = <0x1300>, <0x800>;
 			reg-names = "pon_hlos", "pon_pbs";
